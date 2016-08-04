@@ -1,2 +1,1 @@
-# api
-Artzia API Server
+# Artzia API Server

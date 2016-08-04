@@ -1,3 +1,8 @@
+# Don't check auto-generated stuff into git
+
+# RethinkDB
+rethinkdb_data
+
 # Logs
 logs
 *.log
@@ -24,6 +29,7 @@ coverage
 .lock-wscript
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
+build
 build/Release
 
 # Dependency directories
@@ -35,3 +41,13 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Environment Variables 
+.env
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+stats.json
+
